@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*
+{
+  font-family: 'Poppins', sans-serif;
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+html
+{
+  overflow-x: hidden;
+}
+
+.view-all-container {
+  text-align: center; /* Center the button */
+  margin: 20px; /* Add some space around the button */
+}
+
+.view-all-button {
+  display: inline-block; /* Necessary to add padding */
+  padding: 10px 20px; /* Add some padding */
+  font-size: 16px; /* Increase font size */
+  text-decoration: none; /* Remove underline */
+  color: white; /* Text color */
+  background-color: #007bff; /* Background color */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.view-all-button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+
+
+.xcol
+{
+
+  position: relative;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.col::after
+{
+    content: "";
+    width: 10px;
+    height: 25%;
+    background: linear-gradient(#80FF72, #7EE8FA);
+    position: absolute;
+    left: -20px;
+    top: 105px;
+}
+
+.xxbutton
+{
+  width: 170px;
+  height:70px;
+  border: 0;
+  padding: 10px 10px;
+  margin-top: 20px;
+  outline: none;
+  color: #fff;
+  background: linear-gradient(to right, #20BF55, #01BAEF);
+
+
+}
+
+.card-img-top
+{
+  width:100px;
+  height: 30vh;
+  object-fit:cover;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: acumin-pro, system-ui, sans-serif;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-size: 14px;
+  background-color: #f4f4f4;
+  align-items: start;
+  min-height: 100vh;
+}
+
+

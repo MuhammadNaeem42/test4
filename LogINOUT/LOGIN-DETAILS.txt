@@ -1,0 +1,16 @@
+**ADMIN LOGIN**
+
+Username: admin
+Email: admin@admin.com
+Password: Password123
+
+**User Login**
+
+Email: kingharispro7@gmail.com
+Password: Pas123
+
+
+**SMTP**
+email:cactisuc123@gmail.com
+Password: uqylyqtmgdtfwelc
+
